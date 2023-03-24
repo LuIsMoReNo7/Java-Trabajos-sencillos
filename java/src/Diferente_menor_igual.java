@@ -9,17 +9,18 @@ public class Diferente_menor_igual {
         System.out.println("Ingrese el segundo numero: ");
         int n2 = dato.nextInt();
         //llamamos a if para ver si es diferente
-        if (n1!=n2);{ 
+        if (n1!=n2) { 
         System.out.println(n1 + " es diferente que " + n2);
         } 
-        //llamamos a if para ve si es mayor
-        if (n1>n2);{
-        System.out.println(n1 + " es mayor que " + n2);
+        //llamamos a if para ve si es menor
+        if (n1<n2) {
+        System.out.println(n1 + " es menor que " + n2);
         }   
         //llamamos a if para ver si es menor o igual
-        if (n1<=n2);{
+        if (n1<=n2) {
         System.out.println(n1 + " es menor o igual que " + n2);
         } 
        
     } 
 }
+
