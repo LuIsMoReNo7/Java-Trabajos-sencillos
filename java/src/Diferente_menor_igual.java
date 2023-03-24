@@ -20,7 +20,14 @@ public class Diferente_menor_igual {
         if (n1<=n2) {
         System.out.println(n1 + " es menor o igual que " + n2);
         } 
-       
+        //llamamos a if para ver si es mayor
+        if (n1>n2) {
+        System.out.println(n1 + " es mayor que " + n2);
+        } 
+        //llamamos a if para ver si es igual
+        if (n1==n2) {
+        System.out.println(n1 + " es igual que " + n2);
+        } 
     } 
 }
 
